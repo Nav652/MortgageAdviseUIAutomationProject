@@ -16,3 +16,8 @@ mvn clean install -Dbrowser=chrome
 
 ----------To Run in Firefox browser:------------
 mvn clean install -Dbrowser=firefox
+
+******Request_Call_Back.java:*****
+This file is developed with hardcoded values and can used for quick testing of UI.
+Just include the Chrome driver path in the below code to run succesfully
+System.setProperty("webdriver.chrome.driver", <Chrome driver Path>);
